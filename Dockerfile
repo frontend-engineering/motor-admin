@@ -60,4 +60,6 @@ RUN ln -s /opt/motor-admin/bin/motor-admin /usr/local/bin && chmod +x /usr/local
 WORKDIR /app
 ENV WORKDIR=/app/
 
+EXPOSE 3000
+
 CMD motor-admin
